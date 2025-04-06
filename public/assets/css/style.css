@@ -1,0 +1,872 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.logo{
+    font-size: 30px;
+    font-family: "Raleway", sans-serif;
+    color: #7a6960;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+.input-group {
+    position: relative;
+    width: auto; /* Keep the container width flexible */
+}
+
+.form-control {
+    width: 170px !important; /* Adjust this value to reduce the width of the input field */
+    padding-right: 30px;
+    border-radius: 30px;
+    border: 1px solid #EB5D1E !important;
+}
+
+.input-group-text {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+  .form-control::placeholder {
+    color: #EB5D1E; /* Replace with your desired color */
+    opacity: 1; /* Ensures the color is not faded */
+}
+  
+  
+  .search-icon{
+    color: #EB5D1E !important;
+  }
+  .input-group:not(.has-validation)>.dropdown-toggle:nth-last-child(n+3), .input-group:not(.has-validation)>:not(:last-child):not(.dropdown-toggle):not(.dropdown-menu){
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+  }
+  
+.nav {
+    /* margin-right: 15px;  */
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+    padding-top: 30px;
+    padding-bottom: 13px;
+}
+.navbar-nav .nav-item .nav-link{
+    margin-right: 15px;
+}
+
+.district-names{
+    font-family: "Inter", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #1E1E1E;
+}
+.offer-name{
+  margin-top: 6px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #1E1E1E;
+  margin-bottom: 0;
+}
+
+.abt-head1 {
+    color: #969696;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    margin-top: 6rem;
+}
+.abt-head2{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    background: linear-gradient(90.31deg, #FFB443 0%, #EB5D1E 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    margin-bottom: 0px;
+    line-height: 55px;
+}
+.abt-head3{
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: #787878;
+}
+
+.abt-para{
+    font-family: "Poppins", sans-serif;
+    font-size: 23px;
+    font-weight: 300;
+    line-height: 34px;
+}
+.abt-para-first-word{
+    color: #6B6B6B;
+    font-weight: 600;
+
+}
+.bg-who-we-are{
+    background: linear-gradient(93.31deg, #F8F8F8 0.43%, #F2F2F2 99.51%);
+    /* -webkit-background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
+    /* background-clip: text; */
+    /* color: transparent;  */
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 10px;
+
+}
+.who-we-are{
+    color:  #1E1E1E !important;
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    
+}
+.who-we-are-para{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 35px;
+    text-align: center;
+    color: #6B6B6B;
+
+}
+.our-vision-head{
+    color: #1E1E1E;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    margin-top: 4rem;
+    margin-bottom: 10px;
+
+}
+.our-vision-para{
+    font-family: "Poppins", sans-serif;
+    font-size: 21px;
+    line-height: 34px;
+    font-weight: 400;
+    color: #6B6B6B;
+}
+.shop-image {
+  width: 80%;  /* Adjust the width as needed */
+  max-width: 200px; /* Limit the maximum width */
+  height: auto; /* Maintain aspect ratio */
+}
+.bg-contact-us{
+    background: linear-gradient(93.31deg, #FFB443 0.43%, #EB5D1E 99.51%);
+    /* -webkit-background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
+    /* background-clip: text; */
+    /* color: transparent;  */
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 10px;
+}
+.contact-us-head{
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-size: 57px;
+    font-weight: 600;
+    line-height: 56px;
+    text-align: center;
+
+}
+.contact-info {
+    background-color: #fff;
+    color: #FFB443;
+    padding: 7px 45px;
+    border-radius: 10px;
+}
+
+.bg-footer{
+	/* background-color: #000; */
+	border-radius: 20px;
+    background: linear-gradient(93.31deg, #F8F8F8 0.43%, #F2F2F2 99.51%);
+    /* -webkit-background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
+    /* background-clip: text; */
+    /* color: transparent;  */
+    /* padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 10px; */
+  }
+  .footer-logo{
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  .footer-info{
+    color: #000000;
+    font-weight: 500;
+    
+  }
+  .f-list li a{
+    text-decoration: none;
+    color: #777777;
+    font-family: "Inter", sans-serif;
+     font-size: 16px;
+     font-weight: 400;
+
+  }
+  .f-list li{
+    list-style-type: none;
+  }
+  .f-list li a:hover{
+    color: #777777;
+
+  }
+  .footer-icon {
+    color: #EB5D1E;
+  }
+  .f-head{
+    font-size: 18px;
+    color: #1E1E1E;
+    font-weight: 500;
+    margin-left: 31px;
+    font-family: "Inter", sans-serif;
+
+  }
+  .footer-border{
+	border-bottom:1px solid #E3E3E3;
+  }
+  .footertext{
+    color: #C1C1C1;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+
+  }
+.details{
+  
+  font-size: 16px;
+}
+
+  /* *********************************************mixitup****************************** */
+
+/* Dropdown styles */
+#districtDropdown {
+  color: black;
+ 
+  border: 1px solid #EB5D1E;
+  /* border-image-source: linear-gradient(277.56deg, #EB5D1E 0.31%, #FFB443 100%); */
+  border-image-slice: 1;
+  border-radius: 5px !important;
+}
+
+#districtDropdown option {
+  color: black;
+}
+
+/* .box-item{
+    margin-bottom: 30px;
+} */
+.box-item img{
+    
+    width: 100%;
+    object-fit: cover;
+}
+
+.box-menu ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    grid-template-columns: repeat(6, 1fr); /* Creates 6 equal-width columns */
+    gap: 10px; /* Adjust the space between items as needed */
+    border-radius: 10px !important;
+   
+}
+.box-menu ul li{
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 20px;
+    /* margin: 34px 4px; */
+    /* background: rgb(238, 11, 105); */
+    font-size: 17px;
+    padding: 13px 36px;
+    display: inline-block;
+    color: #EB5D1E;
+    /* border: 1px solid orange; */
+    border: 1px solid;
+    /* border-image-source: linear-gradient(277.56deg, #EB5D1E 0.31%, #FFB443 100%); */
+    border-image-slice: 1;
+    border-radius: 10px !important;
+    text-align: center;
+}
+.box-menu ul li:hover{
+  background: linear-gradient(95.26deg, #FFB443 1.43%, #EB5D1E 98.7%);
+  color: #fff;
+border-radius: 10px  !important;
+border: none;
+}
+  
+.box-menu ul li.mixitup-control-active{
+    background: linear-gradient(95.26deg, #FFB443 1.43%, #EB5D1E 98.7%);
+    color: #fff;
+  border-radius: 10px  !important;
+  border: none;
+}
+
+  
+  
+  
+/* ***********************************mixitup**************************** */
+
+
+.brand-img{
+  position: absolute;
+  margin-top: -9rem;
+}
+.brand-name{
+  color: #FFFFFF;
+  font-size: 44px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  margin-right: 15rem;
+  line-height: 25px;
+
+}
+.brand-address{
+  color: #fff;
+  font-size: 23px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  margin-right: 28rem;
+
+}
+.branches-head{
+  font-size: 28px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+}
+
+
+.branch-img {
+  position: relative;
+  display: block;
+  text-decoration: none;
+}
+.branch-img img {
+  border-radius: 10px; /* Adjust the value to your preference */
+  overflow: hidden;
+}
+
+.text-overlay {
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  border-radius: 10px; /* Match the image border-radius */
+  background: linear-gradient(173.3deg, rgba(0, 0, 0, 0) 5.17%, rgba(0, 0, 0, 0.5) 47.83%, #000000 81.39%);
+
+}
+
+
+.branch-name {
+  color: white; /* Text color */
+  background: linear-gradient(90deg, #FFB443 0%, #EB5D1E 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  font-size: 21px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  line-height: 23px;
+
+}
+
+.branch-address {
+  color: #C5C5C5; 
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+
+}
+.branch-offer-date{
+  color: #6E6E6E;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+
+}
+.border-sides {
+  border-left: 15px solid #EDEDED;
+  border-right: 15px solid #EDEDED;
+}
+
+.flyer-heading{
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 27px;
+}
+.flyer-para{
+  
+}
+  
+@media (min-width: 1500px){
+	.container{
+		max-width: 1210px !important;
+	}
+	}
+	
+	@media screen and (min-width:1200px) and (max-width:1499px){
+	.container{
+	max-width: 1190px!important;
+	}
+	
+	}
+	@media screen and (min-width:1300px) and (max-width:1499px){
+		.container{
+			max-width: 1210px !important;
+		}
+		
+	}
+	@media screen and (min-width:992px) and (max-width:1199px){
+    .navbar-nav .nav-item .nav-link{
+      margin-right: 2px;
+    }
+    .nav{
+      font-size: 16px;
+    }
+    .logo{
+      font-size: 25px;
+    }
+    .form-control{
+      font-size: 14px;
+      width: 146px !important;
+    }
+    .district-names{
+      font-size: 27px;
+    }
+    .box-menu ul li{
+      font-size: 16px;
+      padding: 6px 16px;
+    }
+    .abt-head1{
+      margin-top: 3rem;   
+     font-size: 12px;
+     margin-bottom: -2px;
+    }
+    .abt-head2{
+      line-height: 51px;
+      font-size: 43px;
+    }
+    .abt-head3{
+      font-size: 19px;
+    }
+    .abt-para{
+      font-size: 20px;
+      line-height: 31px;
+    }
+    .who-we-are{
+      font-size: 37px;
+    }
+    .who-we-are-para{
+      font-size: 19px;
+      line-height: 35px;
+    }
+    .our-vision-head{
+      font-size: 37px;
+      margin-top: 1rem;
+    }
+    .our-vision-para{
+      font-size: 19px;
+      line-height: 33px;
+    }
+    .contact-us-head{
+      font-size: 47px;
+      line-height: 51px;
+    }
+    .contact-info{
+      padding: 6px 32px;
+    }
+    .f-list li a{
+      font-size: 15px;
+    }
+   
+    .details{
+      font-size: 15px;
+    }
+    .footer-logo{
+      font-size: 17px;
+    }
+    .brand-name{
+      font-size: 37px;
+      margin-top: 24px;
+    }
+    .brand-img1{
+      margin-top: 2rem;
+    }
+    .branches-head{
+      font-size: 25px;
+    }
+    .branch-name{
+      font-size: 20px;
+    }
+    .branch-address{
+      font-size: 15px;
+    }
+    .brand-address{
+      font-size: 17px;
+    }
+    .branch-offer-date{
+      font-size: 13px;
+    }
+    
+	}
+	@media screen and (min-width:768px) and (max-width:991px){
+    .nav{
+      font-size: 15px;
+    }
+		.logo{
+      font-size: 26px;
+    }
+    .district-names{
+      font-size: 25px;
+    }
+    .box-menu ul li{
+      font-size: 15px;
+      padding: 10px 28px;
+    }
+    .abt-head1{
+      font-size: 12px;
+      margin-bottom: 0rem;
+      margin-top: 0rem;
+    }
+    .abt-head2{
+      font-size: 36px;
+      line-height: 41px;
+      margin-bottom: 0px;
+    }
+    .abt-head3{
+      font-size: 17px;
+    }
+    .abt-para{
+      font-size: 18px;
+      line-height: 32px;
+    }
+    .abt-img{
+      margin-top: 2rem;
+    }
+    .who-we-are{
+      font-size: 35px;
+    }
+    .who-we-are-para{
+      font-size: 18px;
+      line-height: 30px;
+    }
+    .our-vision-head{
+      font-size: 35px;
+      margin-top: 0rem;
+      margin-bottom: 8px;
+    }
+    .our-vision-para{
+      font-size: 18px;
+      line-height: 30px;
+    }
+    .our-vision-img{
+      margin-top: 2rem;
+    }
+    .contact-us-head{
+      font-size: 40px;
+      line-height: 42px;
+    }
+    .contact-info{
+      padding: 6px 24px;
+      font-size: 15px;
+    }
+    .footer-logo{
+      font-size: 16px;
+    }
+    .details{
+      font-size: 14px;
+    }
+    .f-ourservices{
+      padding-left: 4rem;
+    }
+    .form-control{
+      width: 153px !important;
+    }
+    .brand-img1{
+      margin-top: 4rem;
+    }
+    .brand-name{
+      margin-top: 3rem;
+      font-size: 34px;
+      line-height: 33px;
+    }
+    .branches-head{
+      font-size: 24px;
+    }
+    .branch-name{
+      font-size: 19px;
+    }
+    .branch-address{
+      font-size: 15px;
+    }
+    .brand-name1{
+      margin-right: 20rem;
+      margin-top: 4rem;
+      font-size: 30px;
+      margin-bottom: 5px !important;
+      line-height: 30px;
+  
+    }
+    .brand-address{
+      font-size: 15px;
+      margin-right: 18rem;
+    }
+    .branch-offer-date{
+      font-size: 13px;
+    }
+}
+
+
+@media screen and (min-width:576px) and (max-width:767px){
+	.col-sm-4 {
+    flex: 0 0 auto;
+    width: 45.333333%;
+}
+
+.navbar{
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+}
+.logo{
+  font-size: 27px;
+}
+.district-names{
+  font-size: 26px;
+}
+.box-menu ul li{
+  font-size: 16px;
+}
+.abt-head1{
+  margin-top: 1rem;
+  font-size: 11px;
+}
+.abt-head2{
+  font-size: 41px;
+  line-height: 43px;
+}
+.abt-head3{
+  font-size: 17px;
+}
+.abt-para{
+  font-size: 18px;
+  line-height: 30px;
+}
+.who-we-are{
+  font-size: 34px;
+
+}
+.who-we-are-para{
+  font-size: 18px;
+  line-height: 30px;
+}
+.our-vision-head{
+  font-size: 34px;
+  margin-top: 2rem;
+}
+.our-vision-para{
+  font-size: 18px;
+  line-height: 31px;
+}
+.shop-image{
+  width: 100%;
+}
+	.contact-us-head{
+    font-size: 38px;
+    line-height: 41px;
+  }
+  .contact-info{
+    font-size: 14px;
+    padding: 5px 21px;
+  }
+  .f-list li a{
+    font-size: 14px;
+  }
+  .f-ourservices{
+    padding-left: 4rem;
+  }
+  .details{
+    font-size: 14px;
+  }
+  .footertext{
+    font-size: 13px;
+  }
+  .brand-img1{
+   margin-top: 5rem;
+  }
+  .brand-name{
+    font-size: 26px;
+    line-height: 29px;
+    margin-top: 5rem;
+  }
+  .branches-head{
+    font-size: 21px;
+  }
+  .branch-name{
+    font-size: 18px;
+  }
+  .branch-address{
+    font-size: 14px;
+  }
+  .brand-name1 {
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 4px;
+    margin-top: 84px;
+}
+.brand-address {
+  font-size: 15px;
+  margin-right: 12rem;
+}
+.branch-offer-date{
+  font-size: 13px;
+}
+}
+@media (max-width: 575px){
+  
+  .col-sm-4 {
+    flex: 0 0 auto;
+    width: 95%;
+}
+
+.navbar{
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+}
+.logo{
+  font-size: 23px;
+}
+.district-names{
+  font-size: 24px;
+}
+.box-menu ul li{
+  font-size: 16px;
+}
+.abt-head1{
+  margin-top: 1rem;
+  font-size: 11px;
+}
+.abt-head2{
+  font-size: 41px;
+  line-height: 43px;
+}
+.abt-head3{
+  font-size: 17px;
+}
+.abt-para{
+  font-size: 16px;
+  line-height: 29px;
+}
+.who-we-are{
+  font-size: 34px;
+
+}
+.who-we-are-para{
+  font-size: 17px;
+  line-height: 30px;
+}
+.our-vision-head{
+  font-size: 32px;
+  margin-top: 2rem;
+}
+.our-vision-para{
+  font-size: 17px;
+  line-height: 30px;
+}
+.shop-image{
+  width: 100%;
+}
+	.contact-us-head{
+    font-size: 30px;
+    line-height: 34px;
+  }
+  .contact-info{
+    font-size: 14px;
+    padding: 5px 21px;
+  }
+  .f-list li a{
+    font-size: 14px;
+  }
+  
+  .details{
+    font-size: 14px;
+  }
+  .footertext{
+    font-size: 13px;
+  }
+  .footer-logo1{
+    padding-left: 45px;
+
+  }
+ 
+  .our-vision-center{
+    text-align: center;
+  }
+ .check-shop{
+  text-align: center;
+ }
+ .d-none {
+  display: none !important;
+}
+.brand-img1 {
+  width: 40%;
+  max-width: 100%;
+  height: auto;
+  margin-top: 6px;
+  margin-bottom: 5px;
+}
+
+.brand-name {
+  font-size: 25px;
+  /* text-align: center; */
+  margin: auto;
+}
+.branches-head{
+  font-size: 21px;
+  line-height: 28px;
+}
+.branch-name{
+  font-size: 20px;
+}
+.branch-address{
+  font-size: 15px;
+  /* margin-right: 0; */
+}
+.brand-address{
+  margin-right: 0;
+  font-size: 19px;
+  line-height: 37px;
+}
+.branch-offer-date{
+  font-size: 13px;
+}
+.border-sides {
+  border-left: 9px solid #EDEDED;
+  border-right: 9px solid #EDEDED;
+}
+/* .bg-brand1{
+  margin-left: 6px;
+}
+.footer-background{
+  margin-left: 8px;
+} */
+}
+/*************************************** STYLE MEDIA QUERY CLASSES ENDS **************************/
+
+
+
